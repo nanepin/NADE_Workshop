@@ -1,5 +1,5 @@
 from .data import customers, computers, repair_jobs, parts, diagnosis, status
-from .storage import save_customer(), save_computer(), save_job(), save_part()
+from .storage import save_customer, save_computer, save_job, save_part
 
 def add_customer():
     name = input("Enter customer's name: ").strip()
