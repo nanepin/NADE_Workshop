@@ -86,7 +86,7 @@ def register_pc():
     customer = input("Enter customer's ID: ").strip()
     problem = input("Specify the problem: ").strip()
 
-    if any(pc_id["id"].lower() == come_id.lower() for pc in computers):
+    if any(pc_id["id"].lower() == comp_id.lower() for pc in computers):
         print("PC ID is already registered.")
         return
 
