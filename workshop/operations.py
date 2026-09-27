@@ -228,6 +228,7 @@ def calculate_cost():
                 total = part["price"] + total
 
             job["cost"] = total
+            save_job()
             print(total)
             return total
 
