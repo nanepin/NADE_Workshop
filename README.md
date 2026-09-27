@@ -1,11 +1,11 @@
-######## NADE Computer Workshop Manager
+###### NADE Computer Workshop Manager
 A simple Python high school project for managing repair shop operations.
 
 ###### Project Overview
 This is a simple command-line Python project built to help run a basic computer repair workshop. It lets you keep track of repair jobs, check customer details, look up computer parts and pricing, and calculate costs.
 
-######## Features Available to Test
-######Viewing & Searching Information
+###### Features Available to Test
+###### Viewing & Searching Information
 Search for customer details by name or ID.
 
 Search for repair jobs and check if a PC is fixed or still being worked on.
@@ -26,7 +26,7 @@ Remove a customer record.
 
 Remove a PC record or delete a repair job.
 
-######Saving Data permanently
+###### Saving Data permanently
 Save every data into storage/ for permanent storage
 
 Respective .json files for each database (customers, computers, etc.)
