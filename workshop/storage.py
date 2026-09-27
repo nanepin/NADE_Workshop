@@ -3,16 +3,16 @@ from . import data
 
 def load_all_data():
     with open("workshop/storage/customers.json", "r") as file:
-        data.customers = json.load(file)
+        data.customers[:] = json.load(file)
 
     with open("workshop/storage/computers.json", "r") as file:
-        data.computers = json.load(file)
+        data.computers[:] = json.load(file)
 
     with open("workshop/storage/repair_jobs.json", "r") as file:
-        data.repair_jobs = json.load(file)
+        data.repair_jobs[:] = json.load(file)
 
     with open("workshop/storage/parts.json", "r") as file:
-        data.parts = json.load(file)
+        data.parts[:] = json.load(file)
 
 def save_customer():
     with open("workshop/storage/customers.json", "w") as file:
